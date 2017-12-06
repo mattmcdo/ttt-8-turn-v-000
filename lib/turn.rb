@@ -39,8 +39,14 @@ user_input = gets.strip
 index = input_to_index(user_input)
 if valid_move?(board, index)
   move(board, index, character = "X")
+<<<<<<< HEAD
   puts "#{index}"
 else turn(board)
+=======
+  puts "#{index + 1}"
+  display_board(board)
+end
+>>>>>>> a7014655c1fe78fe5c9a87af257d9eba437eb19a
 end
   display_board(board)
 end
