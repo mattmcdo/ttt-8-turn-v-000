@@ -11,9 +11,9 @@ user_input.to_i - 1
 end
 
 def valid_move?(board, index)
-if index.between(0,8) && !input_to_index(user_input)
+if index.between?(0,8) && !input_to_index(user_input)
   true
 else
   false
-end 
+end
 end
