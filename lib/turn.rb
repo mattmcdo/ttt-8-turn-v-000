@@ -16,11 +16,3 @@ def position_taken?(board, index)
     true
   end
 end
-
-def valid_move?(board, index)
-board
-  true
-else
-  false
-end
-end
